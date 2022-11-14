@@ -18,10 +18,10 @@ public class MesArrays {
 
         System.out.println("\nLa boucle for permet de parcourir le tableau");
         for (int i = 0; i < diameters.length; ++i) {
-            System.out.println(diameters[0]);
+            System.out.println(diameters[i]);
         }
         for (int i = 0; i < firstNames.length; ++i) {
-            System.out.println(firstNames[0]);
+            System.out.println(firstNames[i]);
         }
 
         System.out.println("\nCependant, il est plus facile d'utiliser 'for each'");
